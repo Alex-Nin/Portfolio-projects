@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Alexander Nin's Portfolio</title>
+  <link rel="stylesheet" href="stylesheet-portfolio.css" type="text/css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;
+  300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+</head>
+<body>
+  <nav class="top-bar">
+      <div class="top-bar-name"><h1>Alexander Nin</h1></div>
+      <div class="nav-link-list" id="nav-list">
+        <img src="./assets/close-menu.png" 
+          class="menu-btns close-menu" onclick="hideBtn()"/>
+        <ul>
+            <li><a href="#" class="under-bar">About</a></li>
+            <li><a href="#" class="under-bar">Projects</a></li>
+            <li><a href="#email" id="top-contact-btn">Contact</a></li>
+        </ul>
+    </div>
+    <img src="./assets/menu.png" 
+      class="menu-btns open-menu" onclick="showBtn()"/>
+  </nav>
+  </div>
+  <section>
+      <header>
+        <p class="title">
+          Hi! I'm Alexander Nin
+          <br>
+          Thanks for visiting my site!
+        </p>
+        <p class="header-description">
+            I'm a junior front-end web developer and I'm passionate about creating unique projects.
+            <br>
+            I would love to here about your next project!
+        </p>
+        <div class="nav-btns">
+            <button id="project-btn">See my projects</button>
+            <button id="contact-btn">Contact</button>
+        </div>
+      </header>
+      <p class="selected-work" >Recent Projects</p>
+      <main>
+        <div class="grid-container top-grid">
+          <div class="item pic-container">
+            <img src="./assets/The-bean-machine.png" alt="project"/>
+          </div>
+
+          <div class="project-description item">
+              <span>Bean Machine</span>
+              <p>This is a landing page where I first put 
+                  my web design skills to the test. I designed it myself as well
+                as the selection page with all the various types of coffee.
+              </p>
+              <a href="#">View Project</a>
+          </div> 
+
+          <div class="project-description item">
+              <span>Baking School</span>
+              <p>This is another landing page for a baking school where I was
+                able to take what I applied in the Bean Machine project and
+                expand on that. I finished this entire project myself.
+              </p>
+              <a href="#">View Project</a>
+          </div>
+
+          <div class="item pic-container">
+            <img src="./assets/sweet-berries.png" alt="project"/>
+          </div>
+        </div>
+        <div class="between-grid">
+          <div class="about-me">
+            <img src="./assets/creative.png" alt="psychology"/>
+            <h3>Creative</h3>
+            <p>I'm always thinking outside the box to get the most effective and unique results</p>
+          </div>
+          <div class="about-me">
+            <img src="./assets/driven.png" alt="electric-car"/>
+            <h3>Driven</h3>
+            <p>I am movtivated and committed to any and every project I find in front of me to ensure the best quality work</p>
+          </div>
+          <div class="about-me">
+            <img src="./assets/goal-oritented.png" alt="sports-flag"/>
+            <h3>Goal Oriented</h3>
+            <p>I never enter a project without a game plan and an end goal</p>
+          </div>
+        </div>
+        <div class="grid-container bottom-grid">
+          <div class="item pic-container">
+            <img src="./assets/news-landing-page.png" alt="project"/>
+          </div>
+
+          <div class="project-description item">
+              <span>W. News Landing Page</span>
+              <p>This project was my introduction to REACT JS.</p>
+              <a href="https://alex-nin.github.io/w-news/">View Project</a>
+          </div>
+
+          <div class="project-description item">
+              <span>UniLife</span>
+              <p>A housing accomadation search app using REACT JS as well as accessing API's.</p>
+              <a href="https://alex-nin.github.io/uni-life">View Project</a>
+          </div>
+
+          <div class="item pic-container">
+            <img src="./assets/uni-life.png" alt="project"/>
+          </div>
+        </div>
+      </main>
+      <aside>
+          <span class="footer-title">Let me know what you think!</span>
+          <p class="footer-description">I'm always updating my projects to make sure they represent the best that I can offer.
+            <br>
+              Please feel free to reach out to me with any comments or questions!
+          </p>
+          <p class="email" id="email">nin.alex.n@gmail.com</p>
+      </aside>
+  </section>
+  <footer>
+      <p>@ 2022 Alexander Nin. All right reserved</p>
+  </footer>
+  <script src="portfolio-script.js"></script>
+</body>
+</html>
