@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Alexander Nin's Portfolio</title>
+    <link rel="stylesheet" href="stylesheet-portfolio.css" type="text/css"/>
+    <link rel="stylesheet" href="stylesheet-projects.css" type="text/css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;
+    300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="top-bar">
+        <div class="top-bar-name"><a href="index.html" class="top-bar-name-link"><h1>Alexander Nin</h1></a></div>
+        <div class="nav-link-list" id="nav-list">
+          <img src="./assets/close-menu-white.png" 
+            class="menu-btns close-menu" onclick="hideBtn()"/>
+          <ul>
+              <li><a href="#" class="under-bar" onclick="hideBtn()">About</a></li>
+              <li><a href="#" class="under-bar" onclick="hideBtn()">Projects</a></li>
+              <li><a href="#email" id="top-contact-btn" onclick="hideBtn()">Contact</a></li>
+          </ul>
+      </div>
+      <img src="./assets/menu-icon-white.png" 
+        class="menu-btns open-menu" onclick="showBtn()"/>
+    </nav>
+    <div class="projects-container">
+        <div class="project bean-machine" href="https://alex-nin.github.io/Nin-Bean-Machine/"></div>
+        <div class="project sweet-berries"></div>
+        <div class="project w-news"></div>
+        <div class="project unilife"></div>
+        <div class="project cinetrail"></div>
+        <div class="project"></div>
+    </div>
+    <script src="portfolio-script.js"></script>
+</body>
+</html>

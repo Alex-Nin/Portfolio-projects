@@ -14,17 +14,17 @@
 </head>
 <body>
   <nav class="top-bar">
-      <div class="top-bar-name"><h1>Alexander Nin</h1></div>
+      <div class="top-bar-name"><a href="index.html" class="top-bar-name-link"><h1>Alexander Nin</h1></a></div>
       <div class="nav-link-list" id="nav-list">
-        <img src="./assets/close-menu.png" 
+        <img src="./assets/close-menu-white.png" 
           class="menu-btns close-menu" onclick="hideBtn()"/>
         <ul>
-            <li><a href="#" class="under-bar">About</a></li>
-            <li><a href="#" class="under-bar">Projects</a></li>
-            <li><a href="#email" id="top-contact-btn">Contact</a></li>
+            <li><a href="#" class="under-bar" onclick="hideBtn()">About</a></li>
+            <li><a href="projects.html" class="under-bar" onclick="hideBtn()">Projects</a></li>
+            <li><a href="#email" class="under-bar" onclick="hideBtn()">Contact</a></li>
         </ul>
     </div>
-    <img src="./assets/menu.png" 
+    <img src="./assets/menu-icon-white.png" 
       class="menu-btns open-menu" onclick="showBtn()"/>
   </nav>
   </div>
@@ -40,32 +40,27 @@
             <br>
             I would love to here about your next project!
         </p>
-        <div class="nav-btns">
-            <button id="project-btn">See my projects</button>
-            <button id="contact-btn">Contact</button>
-        </div>
       </header>
       <p class="selected-work" >Recent Projects</p>
       <main>
-        <div class="grid-container top-grid">
+        <div class="grid-container">
           <div class="item pic-container">
             <img src="./assets/The-bean-machine.png" alt="project"/>
           </div>
 
           <div class="project-description item">
-              <span>Bean Machine</span>
+              <h3>Bean Machine</h3>
               <p>This is a landing page where I first put 
-                  my web design skills to the test. I designed it myself as well
-                as the selection page with all the various types of coffee.
+                  my web design skills to the test.
               </p>
               <a href="https://alex-nin.github.io/Nin-Bean-Machine/">View Project</a>
           </div> 
 
           <div class="project-description item">
-              <span>Baking School</span>
+              <h3>Baking School</h3>
               <p>This is another landing page for a baking school where I was
                 able to take what I applied in the Bean Machine project and
-                expand on that. I finished this entire project myself.
+                expand on that.
               </p>
               <a href="https://alex-nin.github.io/Nin-Sweet-Berries/">View Project</a>
           </div>
@@ -73,37 +68,18 @@
           <div class="item pic-container">
             <img src="./assets/sweet-berries.png" alt="project"/>
           </div>
-        </div>
-        <div class="between-grid">
-          <div class="about-me">
-            <img src="./assets/creative.png" alt="psychology"/>
-            <h3>Creative</h3>
-            <p>I'm always thinking outside the box to get the most effective and unique results</p>
-          </div>
-          <div class="about-me">
-            <img src="./assets/driven.png" alt="electric-car"/>
-            <h3>Driven</h3>
-            <p>I am movtivated and committed to any and every project I find in front of me to ensure the best quality work</p>
-          </div>
-          <div class="about-me">
-            <img src="./assets/goal-oritented.png" alt="sports-flag"/>
-            <h3>Goal Oriented</h3>
-            <p>I never enter a project without a game plan and an end goal</p>
-          </div>
-        </div>
-        <div class="grid-container bottom-grid">
           <div class="item pic-container">
             <img src="./assets/news-landing-page.png" alt="project"/>
           </div>
 
           <div class="project-description item">
-              <span>W. News Landing Page</span>
+              <h3>W. News Landing Page</h3>
               <p>This project was my introduction to REACT JS.</p>
               <a href="https://alex-nin.github.io/w-news/">View Project</a>
           </div>
 
           <div class="project-description item">
-              <span>UniLife</span>
+              <h3>UniLife</h3>
               <p>A housing accomadation search app using REACT JS as well as accessing API's.</p>
               <a href="https://alex-nin.github.io/uni-life">View Project</a>
           </div>
