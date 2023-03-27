@@ -1,3 +1,10 @@
+/* saved colors for porfolio update
+mint green: #67C6B6
+dark gray: #27262A
+the color scheme idea came from: https://elements.envato.com/gravity-responsive-creative-email-builder-UL6NPG*/
+
+
+
 
 html,
 body {
@@ -57,20 +64,6 @@ body {
 
 .under-bar:hover::after {
   width: 100%;
-}
-
-
-#top-contact-btn {
-  padding: 9px 24px;
-  background-color: #67C6B6;
-  border-radius: 40px;
-  color: #27262A;
-}
-
-#top-contact-btn:hover {
-  color: white;
-  background-color: #27262A;
-  transition: 0.4s;
 }
 
 

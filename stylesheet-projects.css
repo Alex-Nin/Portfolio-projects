@@ -2,16 +2,22 @@
     display: grid;
     grid-template-columns: repeat(3, auto);
     gap: 20px;
+    width: 95%;
+    margin: 80px auto 0;
 }
 
-.bean-machine{
-    background-image: url(/assets/The-bean-machine.png);
-    background-position: center;
+.project {
+    background-position: left;
     background-repeat: no-repeat;
     background-size: cover;
     height: 35vh;
     border-radius: 15px;
     transition: 0.5s;
+}
+
+.bean-machine{
+    background-image: url(/assets/The-bean-machine.png);
+    
 }
 
 .bean-machine:hover {
@@ -21,12 +27,6 @@
 
 .sweet-berries {
     background-image: url(/assets/sweet-berries.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 35vh;
-    border-radius: 15px;
-    transition: 0.5s;
 }
 
 .sweet-berries:hover {
@@ -36,12 +36,6 @@
 
 .w-news {
     background-image: url(/assets/news-landing-page.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 35vh;
-    border-radius: 15px;
-    transition: 0.5s;
 }
 
 .w-news:hover {
@@ -51,12 +45,6 @@
 
 .unilife {
     background-image: url(/assets/uni-life.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 35vh;
-    border-radius: 15px;
-    transition: 0.5s;
 }
 
 .unilife:hover {
@@ -66,15 +54,22 @@
 
 .cinetrail {
     background-image: url(/assets/cinetrail.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 35vh;
-    border-radius: 15px;
-    transition: 0.5s;
 }
 
 .cinetrail:hover {
     height: 50vh;
     transition: 0.5s;
 }
+
+@media screen and (max-width: 1080px) {
+    .projects-container {
+        grid-template-columns: repeat(2, auto);
+        gap: 50px;
+    }
+} 
+
+@media screen and (max-width: 750px) {
+    .projects-container {
+        grid-template-columns: 1fr;
+    }
+} 
