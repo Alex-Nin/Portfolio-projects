@@ -78,7 +78,7 @@ h1{
 
 header {
   height: 65vh;
-  background-image: linear-gradient(rgb(39,38,42,0.7), rgb(39,38,42,0.7)), url(./assets/software-developer-img.png);
+  background-image: linear-gradient(rgb(39,38,42,0.7), rgb(39,38,42,0.7)), url(assets/landscape.jpg);
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -86,6 +86,7 @@ header {
   text-align: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px darkblue;
     
 }
@@ -105,7 +106,7 @@ header {
   color: white;
 }
 
-.selected-work {
+.projects-page-title {
   font-size: 35px;
   font-weight: 300;
   width: 81%;
@@ -205,6 +206,9 @@ aside {
 .email {
   font-size: 20px;
   color: white;
+}
+
+.email span {
   text-decoration: underline #67C6B6;
 }
 
@@ -327,7 +331,12 @@ footer p {
       display: none;
     }
 
-    .selected-work {
+    .parent{
+      display: flex;
+
+    }
+
+    .projects-page-title {
       font-size: 30px;
     }
 
