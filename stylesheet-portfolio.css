@@ -240,6 +240,13 @@ footer p {
   .project-description p {
     font-size: 1rem;
   }
+
+  .project-links {
+    display: block;
+    width: max-content;
+    margin-bottom: 5px;
+  }
+
 }
 
 
@@ -423,10 +430,17 @@ footer p {
   .grid-container {
     display: grid;
     grid-template-columns: 1fr;
+    gap: 40px 0;
   }
 
   .pic-container {
     height: 13vh;
     overflow: scroll;
   }
+
+  .project-links {
+    display: inline-block;
+    
+  }
+
 }
