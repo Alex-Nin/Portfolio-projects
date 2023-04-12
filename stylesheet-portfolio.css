@@ -1,14 +1,6 @@
-/* saved colors for porfolio update
-mint green: #67C6B6
-dark gray: #27262A
-the color scheme idea came from: https://elements.envato.com/gravity-responsive-creative-email-builder-UL6NPG*/
-
-
-
-
 html,
 body {
-  margin: 0 auto; /*might not need if we dont have 'width: 95%;' */
+  margin: 0 auto;
   padding: 0;
   font-family: 'Inter', sans-serif;
   background-color: #27262A;
@@ -65,8 +57,6 @@ body {
 .under-bar:hover::after {
   width: 100%;
 }
-
-
 
 h1{
   text-align: center;
@@ -209,7 +199,7 @@ aside {
 }
 
 .email span {
-  text-decoration: underline #67C6B6;
+  text-decoration: underline #67c6b6;
 }
 
 footer {
@@ -228,15 +218,51 @@ footer p {
   display: none;
 }
 
+/* About Me Page */
+
+.about-me-page {
+  margin: 40px auto;
+  width: 95%;
+}
+
+img[alt="me-on-boat"] {
+  float: right;
+  width: 400px;
+  box-shadow: 0 2px 24px 0 rgb(0 0 0);
+  margin: 0 70px 50px;
+}
+
+.about-me {
+  color: #26272A;
+  background-color: rgb(103, 198, 182);
+  padding: 15px;
+}
+
+.about-me h1 {
+  font-size: 2.2rem;
+}
+
+.about-me p {
+  font-size: 1rem;
+  line-height: 1.6rem;
+}
+
+
+.novels {
+  color: white;
+}
+
+.novels h2{
+  font-size: 1.8rem;
+  font-weight: 300;
+}
+
+.novels ul li {
+  line-height: 1.6rem;
+}
+
 @media screen and (max-width: 950px) {
-  .about-me h3 {
-    font-size: 1rem;
-  }
-
-  .about-me p {
-    font-size: 1rem;
-  }
-
+  
   .project-description p {
     font-size: 1rem;
   }
@@ -418,12 +444,24 @@ footer p {
     footer {
         font-size: 13px;
     }
+
+  /* About Me Page */
+    .about-me {
+      text-align: center;
+    }
+
+  img[alt="me-on-boat"] {
+    float: none;
+    width: 300px;
+    margin: 0 0 50px;
+  }
 }
 
 @media screen and (max-width: 600px) {
   .project-description {
     margin: 0;
   }
+
 }
 
 @media screen and (max-width: 550px) {
@@ -442,5 +480,10 @@ footer p {
     display: inline-block;
     
   }
+  
+  /* About Me Page */
 
+  img[alt="me-on-boat"] {
+    width: 200px;
+  }
 }
